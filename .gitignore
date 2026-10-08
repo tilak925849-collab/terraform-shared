@@ -1,0 +1,7 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+tfplan
+plan.txt
+# .terraform.lock.hcl IS committed so CI uses the same provider versions.
